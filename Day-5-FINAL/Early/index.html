@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Novel Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="black-screen"></div>
+        <div id="background-container">
+            <img id="background" src="asset/bg1.png" alt="Latar Belakang">
+        </div>
+        <div id="characters">
+            <img id="character-left" src="../../asset/Char/Char_Nothing.png" class="character hidden">
+            <img id="character-right" src="../../asset/Char/Char_Nothing.png" class="character hidden">
+        </div>
+        <div id="dialog-box">
+            <span id="character-name"></span>
+            <p id="dialog-text"></p>
+            <p id="next-text">Lanjut</p>
+        </div>
+    </div>
+    
+    <!-- Overlay untuk transisi hitam -->
+    <div id="transition-overlay"></div>
+
+    <!-- Audio element for background music -->
+    <audio id="background-music" src="../MUSIC/ENDINGEPIC.mp3" preload="auto"></audio>
+
+    <!-- Tambahkan tombol musik -->
+    <button id="music-toggle" class="music-button">
+        <span class="music-icon">🔊</span>
+    </button>
+
+    <!-- Tambahkan setelah music-toggle button dan sebelum script -->
+    <button id="skip-button" class="skip-button">
+        <span class="skip-icon">⏭️ Skip</span>
+    </button>
+
+    <script src="Visu.js"></script>
+</body>
+</html>

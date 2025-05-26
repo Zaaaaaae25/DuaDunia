@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Judul Game</title>
+	<style>
+		html,
+		body {
+			margin: 0;
+			overflow: hidden;
+			text-align: center;
+			background-image: url('path/to/your/background.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			height: 100%;
+		}
+
+		canvas {
+			padding: 0;
+			margin: auto;
+			display: block;
+			width: 100vw;
+			height: 100vh;
+		}
+
+		#gameArea {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		}
+
+		#game {
+			margin: 0;
+			height: 100%;
+		}
+
+		#deathCounter, #objectiveCounter {
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			font-family: 'Calibri', sans-serif;
+			font-size: 20px;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.5);
+			padding: 10px;
+			border-radius: 5px;
+		}
+
+		#objectiveCounter {
+			top: 60px; /* Position below the death counter */
+		}
+	</style>
+	<script type="text/javascript" src="js/mekanik.js"></script>
+</head>
+
+<body>
+	<div id="deathCounter">Attempts: 0/3</div>
+	<div id="objectiveCounter">Objective: 0/45</div>
+	<center>
+		<div id="game">
+			<div id="gameArea"><canvas id="canvas"></canvas></div>
+		</div>
+	</center>
+</body>
+<script type="text/javascript" src="js/map_1.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
+
+</html>

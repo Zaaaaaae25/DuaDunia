@@ -31,72 +31,219 @@ let currentBackground = "asset/bg1.png";
 
 const dialogData = [
     { 
-        text: "Seiring berjalannya waktu, Vania mulai merasakan kesadaran yang perlahan muncul dalam dirinya. Kemarahan yang sebelumnya membutakan pandangannya kini mulai menghilang. Hatinya yang semula keras dan penuh kebencian perlahan mulai melembut. Ia merenung sejenak, mengenang setiap perkataan Alex dan Rizqi, dan memikirkan apa yang telah ia perbuat pada Aisyah. Ia tahu bahwa tidak ada yang bisa mengubah masa lalu, tetapi ada satu hal yang masih bisa ia lakukan—meminta maaf.", 
+        text: "Hari itu tiba. Aisyah sudah memutuskan apa yang harus ia lakukan. Ia merasa marah dan sakit hati begitu dalam, hingga tak ada tempat lagi untuk memaafkan. Keinginan untuk membalas dendam telah menguasai pikirannya, dan ia tahu bahwa ini adalah waktunya untuk membuat Vania merasakan apa yang telah ia alami", 
         speaker: "left", 
         name:"Narator",
         expression: "Nothing", 
-        background: "../../asset/BackGroun/bg48.png", 
+        background: "../../asset/BackGroun/bg54.png", 
         moveBg:true, 
-        transitionText:"Penyesalan dan Penerimaan" ,
+        transitionText:"Revenge" ,
         minigameURL: ""
 
     },
     { 
-        text: "Alex, Rizqi… aku minta maaf. Aku sudah menyeret kalian ke dalam masalah yang aku buat. Aku tahu kalian tidak seharusnya terlibat, dan aku sangat menyesal sudah membuat kalian seperti ini.", 
+        text: "Aisyah memanfaatkan kesempatan yang ada. Vania, yang datang dengan tulus untuk meminta maaf, tidak tahu bahwa di balik kata-katanya yang baik, Aisyah telah merencanakan sesuatu. Aisyah menggunakan Alex dan Rizqi sebagai alat untuk membalas semua yang telah ia terima.", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg55.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Dengan cerdik, Aisyah menempatkan mereka dalam posisi untuk membuat Vania malu di depan seluruh sekolah. Sebuah rencana yang rumit namun penuh dengan balas dendam. Hari yang dinanti pun tiba, dan semua orang berkumpul di halaman sekolah. Vania berdiri di sana, dikelilingi oleh teman-temannya, tidak tahu bahwa ia sedang dalam jebakan yang telah disiapkan oleh Aisyah", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg56.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Ini saatnya. Semua yang telah kau lakukan padaku akan kembali padamu, Vania", 
+        speaker: "left", 
+        name:"Aisyah",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg56.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Saat Vania berdiri di depan seluruh sekolah, Alex dan Rizqi melangkah maju, membantu untuk mempublikasikan sebuah cerita yang memalukan, membuat Vania merasa terhina dan tak berdaya. Semua mata tertuju padanya, dan rasa malu yang luar biasa menghantam dirinya. Vania yang awalnya marah, akhirnya merasa terpukul.", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg56.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Kalian pikir kalian bisa membuatku malu seperti ini?! Aku tidak akan biarkan kalian begitu saja!", 
+        speaker: "left", 
+        name:"Vania",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg56.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Vania mengangguk perlahan, mengumpulkan kekuatan untuk berbicara. Meskipun hatinya dipenuhi dengan perasaan hancur, ia sadar bahwa hidupnya harus berubah.", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg31.png", 
+        moveBg:false, 
+        transitionText:"Namun, saat itu juga, ada sesuatu yang berubah dalam diri Vania. Ia tiba-tiba menyadari bahwa semua yang terjadi adalah akibat dari perbuatannya sendiri. Ia tak bisa menyalahkan orang lain lagi. Semua rasa sakit yang ia rasakan adalah buah dari kebenciannya yang ia tumbuhkan selama ini. Keputusan untuk balas dendam telah membuat semuanya menjadi semakin buruk." ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Aku… aku tahu ini salah. Semua ini karena aku, karena keputusan buruk yang aku buat. Aku... aku tidak bisa tinggal di sini lagi. Aku harus pergi", 
         speaker: "left", 
         name:"Vania",
         expression: "Vania_Sedih", 
-        background: "../../asset/BackGroun/bg30.png", 
+        background: "../../asset/BackGroun/bg31.png", 
         moveBg:false, 
-        transitionText:"Vania mengangkat teleponnya dan mengirim pesan kepada Alex dan Rizqi. Tidak lama setelah itu, mereka bertiga bertemu di sebuah tempat yang tenang, jauh dari keramaian sekolah." ,
+        transitionText:"" ,
         minigameURL: ""
 
     },
     { 
-        text: "Alex dan Rizqi saling bertukar pandang, merasa berat hati dengan perasaan Vania yang penuh penyesalan. Meskipun mereka masih merasa kecewa dengan apa yang terjadi, mereka tahu bahwa Vania sedang berusaha untuk berubah.", 
+        text: "...", 
         speaker: "right", 
+        name:"Aisyah",
+        expression: "Aisyah_Murung", 
+        background: "../../asset/BackGroun/bg31.png", 
+        moveBg:false, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Aisyah yang melihat perubahan pada Vania, merasa perasaan yang tak terungkapkan di hatinya. Setelah semua yang terjadi, Aisyah tidak tahu harus bagaimana. Namun, perasaan bersalah mulai menggerogoti hatinya.", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Vania_Sedih", 
+        background: "../../asset/BackGroun/bg31.png", 
+        moveBg:false, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Aku… aku juga minta maaf, Vania. Semua yang aku lakukan… aku tidak seharusnya seperti itu. Tapi, itu sudah tidak ada gunanya sekarang", 
+        speaker: "left", 
+        name:"Aisyah",
+        expression: "Aisyah_Murung", 
+        background: "../../asset/BackGroun/bg31.png", 
+        moveBg:false, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Aku memaafkanmu, Aisyah. Semua perbuatanmu juga sudah aku maafkan", 
+        speaker: "left", 
+        name:"Vania",
+        expression: "Vania_Senyum", 
+        background: "../../asset/BackGroun/bg31.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Sebuah Penyesalan yang mendalam melanda Aisyah. Ia menyadari bahwa balas dendam tidak akan mengembalikan apa yang telah hilang, dan hanya akan menambah luka di hati mereka berdua. Vania, dengan keberanian yang luar biasa, memilih untuk pergi dari tempat itu, meninggalkan semua kenangan pahit di belakangnya.", 
+        speaker: "Right", 
         name:"Narator",
         expression: "Nothing", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
+        background: "../../asset/BackGroun/bg31.png", 
+        moveBg:true, 
         transitionText:"" ,
         minigameURL: ""
 
     },
     { 
-        text: "Vania, kami juga minta maaf. Kami tidak seharusnya hanya ikut-ikutan dan membiarkan semuanya terjadi. Kami tahu itu salah. Kami berdua juga harus lebih berani untuk menghentikan semua ini.", 
-        speaker: "right", 
-        name:"Alex",
-        expression: "Alex_Sedih", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
-        transitionText:"" ,
-        minigameURL: ""
-
-    },
-    
-    { 
-        text: "Kami seharusnya lebih peduli, Vania. Maafkan kami.", 
-        speaker: "right", 
-        name:"Rizki",
-        expression: "Rizki_Sedih", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
-        transitionText:"" ,
+        text: "Aisyah berdiri di sana, memandang ke arah Vania yang menghilang di kejauhan. Ia merasa kosong, seperti ada bagian dari dirinya yang hilang. Semua yang telah terjadi seolah-olah tidak ada yang benar, dan meskipun ia tahu bahwa ia telah memilih jalan yang salah, ia tidak bisa mengubah apa yang telah terjadi.", 
+        speaker: "left", 
+        name:"",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg58.png", 
+        moveBg:true, 
+        transitionText:"Penyesalan" ,
         minigameURL: ""
 
     },
     { 
-        text: "Terima kasih, kalian. Aku tahu ini nggak mudah. Aku janji akan berubah. Aku akan meminta maaf kepada Aisyah besok, dan aku akan mencoba menjadi orang yang lebih baik.", 
+        text: "\"Terkadang, keinginan untuk membalas dendam bukanlah cara untuk meredakan luka. Karena pada akhirnya, yang terluka bukan hanya orang lain, tetapi juga diri kita sendiri\"", 
         speaker: "left", 
         name:"Narator",
         expression: "Nothing", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
-        transitionText:"Day-4-Depression...END To Be Continued..." ,
+        background: "../../asset/BackGroun/bg58.png", 
+        moveBg:true, 
+        transitionText:"" ,
         minigameURL: ""
 
     },
+    { 
+        text: "Semua yang telah kulakukan, semua yang kuinginkan, semuanya sia-sia. Aku tidak tahu apakah ada kesempatan kedua. Semua ini sudah terlambat", 
+        speaker: "left", 
+        name:"Aisyah",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg58.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Aisyah akhirnya melangkah pergi, meninggalkan masa lalu di belakangnya, tetapi dengan hati yang penuh penyesalan dan pelajaran yang terlalu mahal untuk dipelajari. Begitulah akhir dari cerita ini. Tamat.", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg58.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Merasa tersakiti bukan berarti kita harus membalas. Karena jika kita memilih membalas, kita hanya menjadi cermin dari luka yang sama. Balas dendam tidak menyembuhkan—ia hanya memperpanjang rasa sakit. Maka, ayo kita coba lagi... bukan sebagai orang yang menyimpan dendam, tapi sebagai pribadi yang memilih untuk memaafkan. Karena dari maaf, kita belajar menjadi lebih kuat, lebih bijak, dan lebih manusiawi.", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg31.png", 
+        moveBg:true, 
+        transitionText:"Tamat???" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg.png", 
+        moveBg:true, 
+        transitionText:"Menjadi Yang Lebih Baik" ,
+        minigameURL: "../Minigame/index.html"
+
+    },
+    
+
+
+    
+    
    
   
 

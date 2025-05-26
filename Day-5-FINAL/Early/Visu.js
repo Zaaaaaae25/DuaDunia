@@ -31,79 +31,79 @@ let currentBackground = "asset/bg1.png";
 
 const dialogData = [
     { 
-        text: "Seiring berjalannya waktu, Vania mulai merasakan kesadaran yang perlahan muncul dalam dirinya. Kemarahan yang sebelumnya membutakan pandangannya kini mulai menghilang. Hatinya yang semula keras dan penuh kebencian perlahan mulai melembut. Ia merenung sejenak, mengenang setiap perkataan Alex dan Rizqi, dan memikirkan apa yang telah ia perbuat pada Aisyah. Ia tahu bahwa tidak ada yang bisa mengubah masa lalu, tetapi ada satu hal yang masih bisa ia lakukan—meminta maaf.", 
+        text: "Pagi itu, Aisyah terbangun dengan perasaan yang campur aduk. Matanya terasa berat, dan tubuhnya masih terasa lelah dari segala yang telah terjadi. Tapi ada sesuatu yang berbeda dalam dirinya hari itu. Sebuah pertanyaan muncul di benaknya", 
         speaker: "left", 
-        name:"Narator",
         expression: "Nothing", 
-        background: "../../asset/BackGroun/bg48.png", 
+        name:"Narrator", 
+        background: "../../asset/BackGroun/bg49.png", 
         moveBg:true, 
-        transitionText:"Penyesalan dan Penerimaan" ,
+        transitionText:"Day-5-FINAL" ,
         minigameURL: ""
 
     },
     { 
-        text: "Alex, Rizqi… aku minta maaf. Aku sudah menyeret kalian ke dalam masalah yang aku buat. Aku tahu kalian tidak seharusnya terlibat, dan aku sangat menyesal sudah membuat kalian seperti ini.", 
+        text: "Apa yang akan aku lakukan hari ini?", 
         speaker: "left", 
-        name:"Vania",
-        expression: "Vania_Sedih", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
-        transitionText:"Vania mengangkat teleponnya dan mengirim pesan kepada Alex dan Rizqi. Tidak lama setelah itu, mereka bertiga bertemu di sebuah tempat yang tenang, jauh dari keramaian sekolah." ,
-        minigameURL: ""
-
-    },
-    { 
-        text: "Alex dan Rizqi saling bertukar pandang, merasa berat hati dengan perasaan Vania yang penuh penyesalan. Meskipun mereka masih merasa kecewa dengan apa yang terjadi, mereka tahu bahwa Vania sedang berusaha untuk berubah.", 
-        speaker: "right", 
-        name:"Narator",
         expression: "Nothing", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
+        name:"Aisyah", 
+        background: "../../asset/BackGroun/bg49.png", 
+        moveBg:true, 
         transitionText:"" ,
         minigameURL: ""
 
     },
     { 
-        text: "Vania, kami juga minta maaf. Kami tidak seharusnya hanya ikut-ikutan dan membiarkan semuanya terjadi. Kami tahu itu salah. Kami berdua juga harus lebih berani untuk menghentikan semua ini.", 
-        speaker: "right", 
-        name:"Alex",
-        expression: "Alex_Sedih", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
-        transitionText:"" ,
-        minigameURL: ""
-
-    },
-    
-    { 
-        text: "Kami seharusnya lebih peduli, Vania. Maafkan kami.", 
-        speaker: "right", 
-        name:"Rizki",
-        expression: "Rizki_Sedih", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
-        transitionText:"" ,
-        minigameURL: ""
-
-    },
-    { 
-        text: "Terima kasih, kalian. Aku tahu ini nggak mudah. Aku janji akan berubah. Aku akan meminta maaf kepada Aisyah besok, dan aku akan mencoba menjadi orang yang lebih baik.", 
+        text: "Selama ini, Aisyah terjebak dalam perasaan marah, kesedihan, dan kebingungannya. Setiap hari terasa seperti perjuangan yang tidak ada ujungnya. Namun, pagi ini, ia merasa ada kesempatan untuk memutuskan arah hidupnya—apakah ia akan menerima keadaan, menyerah pada segalanya, ataukah memilih untuk membalas dendam atas apa yang telah dilakukan padanya.", 
         speaker: "left", 
-        name:"Narator",
         expression: "Nothing", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
-        transitionText:"Day-4-Depression...END To Be Continued..." ,
+        name:"Narrator",
+        background: "../../asset/BackGroun/bg49.png", 
+        moveBg:true, 
+        transitionText:"" ,
         minigameURL: ""
 
     },
-   
-  
+    { 
+        text: "Aku sudah terlalu lama terjebak dalam kebingunganku. Tapi apakah aku harus menerima semuanya begitu saja? Atau menyerah dan melupakan semua yang telah terjadi? Atau mungkin… mungkin aku bisa membalas dendam, membuat mereka merasakan apa yang aku rasakan", 
+        speaker: "left", 
+        expression: "Nothing", 
+        name:"Aisyah", 
+        background: "../../asset/BackGroun/bg49.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },{ 
+        text: "Aisyah duduk di pinggir tempat tidurnya, memandangi cermin dengan pandangan kosong. Wajahnya tampak lelah dan pucat, tetapi matanya menyiratkan pertarungan batin yang sedang terjadi di dalam dirinya. Dia tahu bahwa apa yang dia pilih hari ini akan menentukan bagaimana dia akan menghadapi masa depan.", 
+        speaker: "left", 
+        expression: "Nothing", 
+        name:"Narrator", 
+        background: "../../asset/BackGroun/bg49.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },{ 
+        text: "", 
+        speaker: "left", 
+        expression: "", 
+        name:"", 
+        background: "../../asset/BackGroun/bg.png", 
+        moveBg:false, 
+        transitionText:"Choice" ,
+        minigameURL: "../MiniGame/index.html"
+
+    }
+    
+    
+    
+    
+    
+    
 
     
     
-    
-    
+
    
     
     

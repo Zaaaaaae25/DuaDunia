@@ -31,72 +31,167 @@ let currentBackground = "asset/bg1.png";
 
 const dialogData = [
     { 
-        text: "Seiring berjalannya waktu, Vania mulai merasakan kesadaran yang perlahan muncul dalam dirinya. Kemarahan yang sebelumnya membutakan pandangannya kini mulai menghilang. Hatinya yang semula keras dan penuh kebencian perlahan mulai melembut. Ia merenung sejenak, mengenang setiap perkataan Alex dan Rizqi, dan memikirkan apa yang telah ia perbuat pada Aisyah. Ia tahu bahwa tidak ada yang bisa mengubah masa lalu, tetapi ada satu hal yang masih bisa ia lakukan—meminta maaf.", 
+        text: "Hari itu tiba. Aisyah sudah tidak bisa menahan perasaan yang semakin menekan hatinya. Dia merasa seperti berada di ujung jurang, dan meskipun ia sudah berusaha untuk bertahan, ia merasa semuanya sudah terlalu berat untuk diteruskan. Keinginan untuk pergi dari semua ini sudah menguasai pikirannya. Aisyah memutuskan untuk pindah sekolah, berharap dengan itu ia bisa melepaskan diri dari segala rasa sakit yang telah mengikutinya selama ini.", 
         speaker: "left", 
         name:"Narator",
         expression: "Nothing", 
-        background: "../../asset/BackGroun/bg48.png", 
+        background: "../../asset/BackGroun/bg50.png", 
         moveBg:true, 
-        transitionText:"Penyesalan dan Penerimaan" ,
+        transitionText:"Gave-Up" ,
         minigameURL: ""
 
     },
     { 
-        text: "Alex, Rizqi… aku minta maaf. Aku sudah menyeret kalian ke dalam masalah yang aku buat. Aku tahu kalian tidak seharusnya terlibat, dan aku sangat menyesal sudah membuat kalian seperti ini.", 
+        text: "Aku… aku ingin mengucapkan maaf. Aku tahu aku tidak bisa mengubah apa yang sudah terjadi, dan aku tidak kuat lagi untuk bertahan di sini. Aku memaafkan kalian… meskipun, aku tidak bisa lagi melanjutkan ini", 
+        speaker: "left", 
+        name:"Aisyah",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg52.png", 
+        moveBg:true, 
+        transitionText:"Namun, sebelum pergi, ia tahu ada satu hal yang harus ia lakukan. Dia ingin mengakhiri semuanya dengan sebuah permintaan maaf yang tulus, meskipun hatinya hancur." ,
+        minigameURL: ""
+
+    },{ 
+        text: "Aisyah… kamu… kamu tidak perlu memaafkan kami. Kami yang seharusnya minta maaf. Semua ini salah kami. Kami… aku… aku sangat menyesal", 
         speaker: "left", 
         name:"Vania",
-        expression: "Vania_Sedih", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
-        transitionText:"Vania mengangkat teleponnya dan mengirim pesan kepada Alex dan Rizqi. Tidak lama setelah itu, mereka bertiga bertemu di sebuah tempat yang tenang, jauh dari keramaian sekolah." ,
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg52.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },{ 
+        text: "Kami tidak pernah menyadari seberapa jauh hal ini sudah merusakmu, Aisyah. Kami… kami ingin semuanya kembali seperti dulu. Kami benar-benar menyesal", 
+        speaker: "left", 
+        name:"Rizki",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg52.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },{ 
+        text: "Aisyah, kamu sudah melalui banyak hal sendirian. Kami tahu, kami salah. Kami seharusnya lebih peduli padamu. Kami menyesal, dan kami berharap bisa mengubah semuanya", 
+        speaker: "left", 
+        name:"Alex",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg52.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },{ 
+        text: "Aku tahu kalian menyesal, tapi kalian tidak tahu bagaimana rasanya berada di posisi aku. Aku sudah tidak kuat lagi. Aku sudah lelah dengan semua ini. Aku harus pergi. Memaafkan kalian tidak akan mengubah apapun. Aku hanya ingin kalian tahu… aku sudah berusaha", 
+        speaker: "left", 
+        name:"Aisyah",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg52.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },{ 
+        text: "Aisyah, aku ingin kalian tahu bahwa aku benar-benar menyesal. Semua yang aku lakukan itu karena aku merasa tidak dihargai. Tapi itu bukan alasan untuk menyakitimu. Aku tahu aku salah, dan aku berharap kamu bisa bahagia di tempat yang baru", 
+        speaker: "left", 
+        name:"Vania",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg52.png", 
+        moveBg:true, 
+        transitionText:"" ,
         minigameURL: ""
 
     },
     { 
-        text: "Alex dan Rizqi saling bertukar pandang, merasa berat hati dengan perasaan Vania yang penuh penyesalan. Meskipun mereka masih merasa kecewa dengan apa yang terjadi, mereka tahu bahwa Vania sedang berusaha untuk berubah.", 
-        speaker: "right", 
+        text: "Mungkin kita semua hanya manusia yang berusaha mencari tempat di dunia ini. Aku… aku tidak tahu apakah aku bisa bahagia lagi, tapi aku akan mencoba untuk melupakan semua ini", 
+        speaker: "left", 
+        name:"Aisyah",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg52.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Aku berharap aku bisa mengubah semuanya, Aisyah. Maafkan kami. Kami benar-benar ingin kamu bisa merasa lebih baik", 
+        speaker: "left", 
+        name:"Rizki",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg52.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Aisyah, kamu sudah menjadi orang yang lebih kuat karena semua ini. Kami hanya berharap kamu bisa melupakan semua rasa sakit itu. Semoga di tempat yang baru kamu bisa menemukan kedamaian", 
+        speaker: "left", 
+        name:"Alex",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg52.png", 
+        moveBg:true, 
+        transitionText:"" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Aisyah akhirnya melangkah pergi, meninggalkan Vania dan teman-temannya dengan perasaan yang penuh penyesalan. Mungkin, kepergiannya adalah jalan terbaik untuknya.", 
+        speaker: "left", 
         name:"Narator",
         expression: "Nothing", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
+        background: "../../asset/BackGroun/bg53.png", 
+        moveBg:true, 
+        transitionText:"Aisyah menatap mereka semua, merasakan perasaan yang campur aduk. Di satu sisi, ia merasa seolah-olah semua ini tidak ada artinya. Tapi di sisi lain, ia merasa ada sedikit kelegaan. Ia memaafkan mereka, meskipun ia tahu bahwa luka yang ada tidak akan pernah benar-benar sembuh." ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Perasaan kesedihan dan penyesalan menyelimuti hati semua orang. Tidak ada yang bisa mengubah apa yang telah terjadi, namun mereka belajar bahwa terkadang, untuk memperbaiki kesalahan, kita harus mengakui bahwa kita tidak bisa mengubah masa lalu. Semua yang terjadi sudah terjadi, dan yang bisa dilakukan hanya melangkah maju.", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg53.png", 
+        moveBg:true, 
         transitionText:"" ,
         minigameURL: ""
 
     },
     { 
-        text: "Vania, kami juga minta maaf. Kami tidak seharusnya hanya ikut-ikutan dan membiarkan semuanya terjadi. Kami tahu itu salah. Kami berdua juga harus lebih berani untuk menghentikan semua ini.", 
-        speaker: "right", 
-        name:"Alex",
-        expression: "Alex_Sedih", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
+        text: "Kadang, kita harus menerima kenyataan bahwa tidak semua luka bisa sembuh, dan tidak semua perbaikan datang dengan cara yang kita inginkan. Terkadang, melepaskan adalah jalan terbaik untuk menemukan kedamaian, meskipun hati kita tetap terluka", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg27.png", 
+        moveBg:true, 
+        transitionText:"Tamat???" ,
+        minigameURL: ""
+
+    },
+    { 
+        text: "Namun, menyerah bukanlah jalan keluar dari semua ini. Di tengah badai yang mendera, harapan masih bisa tumbuh, sekecil apa pun itu. Jangan biarkan keputusasaan menutup cahaya yang masih berpendar dalam hati kita. Ayo, saling menggenggam tangan—kita hadapi semua ini bersama. Karena kita percaya, di balik segala luka dan air mata, masih ada akhir yang lebih baik menanti. Akhir yang tidak hanya memberi kita kedamaian, tetapi juga alasan untuk kembali tersenyum", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg27.png", 
+        moveBg:true, 
         transitionText:"" ,
         minigameURL: ""
+
+    },
+    { 
+        text: "", 
+        speaker: "left", 
+        name:"Narator",
+        expression: "Nothing", 
+        background: "../../asset/BackGroun/bg.png", 
+        moveBg:true, 
+        transitionText:"Mencari Yang Lebih Baik" ,
+        minigameURL: "../MiniGame/index.html"
 
     },
     
-    { 
-        text: "Kami seharusnya lebih peduli, Vania. Maafkan kami.", 
-        speaker: "right", 
-        name:"Rizki",
-        expression: "Rizki_Sedih", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
-        transitionText:"" ,
-        minigameURL: ""
-
-    },
-    { 
-        text: "Terima kasih, kalian. Aku tahu ini nggak mudah. Aku janji akan berubah. Aku akan meminta maaf kepada Aisyah besok, dan aku akan mencoba menjadi orang yang lebih baik.", 
-        speaker: "left", 
-        name:"Narator",
-        expression: "Nothing", 
-        background: "../../asset/BackGroun/bg30.png", 
-        moveBg:false, 
-        transitionText:"Day-4-Depression...END To Be Continued..." ,
-        minigameURL: ""
-
-    },
+    
    
   
 
