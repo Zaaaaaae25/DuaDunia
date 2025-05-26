@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuaDunia - Visual Novel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="arrow arrow-top"></div>
+            <div class="arrow arrow-bottom"></div>
+        </div>
+        <div class="divider"></div>
+        <div class="right">
+            <img src="MenuPage/asset/objek/garis.png" alt="Line" class="line-image">
+            <h1 class="game-title">DuaDunia</h1>
+            <div class="text-animation"><span></span></div>
+            <button class="menu-button active"><div class="cursor"></div>Continue</button>  
+            <button class="menu-button" onclick="confirmNewGame()"><div class="cursor"></div>New Game</button>
+            <button class="menu-button" onclick="showLoad()"><div class="cursor"></div>Load</button>
+            <button class="menu-button" onclick="showAbout()"><div class="cursor"></div>About</button>
+            <button class="menu-button" onclick="showExtras()"><div class="cursor"></div>Extras</button>
+            <button class="menu-button" onclick="confirmQuit()"><div class="cursor"></div>Quit</button>
+            <img src="MenuPage/asset/objek/garis.png" alt="Line" class="line-image">
+        </div>
+    </div>
+    
+    <button class="music-button" onclick="toggleMusic()" id="musicBtn">🎵 Music On</button>
+    <audio id="bgMusic" loop>
+        <source src="MenuPage/asset/sound/soft-piano-loop-192098.mp3" type="audio/mp3">
+    </audio>
+    
+    <div class="about-section" id="aboutSection" style="display: none;">
+        <h2>About DuaDunia</h2>
+        <p>DuaDunia is a captivating visual novel game that takes you on an unforgettable journey through two parallel worlds. Experience the story, make choices, and explore the rich narrative.</p>
+        <button class="close-button" onclick="closeAbout()">Close</button>
+    </div>
+
+    <div class="load-section" id="loadSection" style="display: none;">
+        <h2>Load Game</h2>
+        <p>Pilih slot penyimpanan untuk melanjutkan permainan.</p>
+        <div class="save-slots">
+            <button class="save-slot" onclick="loadGame(1)">Slot 1 - [Tanggal & Waktu]</button>
+            <button class="save-slot" onclick="loadGame(2)">Slot 2 - [Tanggal & Waktu]</button>
+            <button class="save-slot" onclick="loadGame(3)">Slot 3 - [Tanggal & Waktu]</button>
+        </div>
+        <button class="close-button" onclick="closeLoad()">Close</button>
+    </div>
+    
+    <div class="extras-section" id="extrasSection" style="display: none;">
+        <h2>Extras</h2>
+        <p>Temukan konten tambahan dari game ini.</p>
+        <div class="gallery">
+            <div class="extra-img-container">
+                <img src="menuPage/asset/latar/sekolah.png" alt="CG 1" class="extra-img">
+            </div>
+            <div class="extra-img-container">
+                <img src="menuPage/asset/latar/mario.png" alt="CG 2" class="extra-img locked">
+                <span class="lock-icon">🔒</span>
+            </div>
+            <div class="extra-img-container">
+                <img src="MenuPage/asset/extras/cg3.png" alt="CG 3" class="extra-img locked">
+                <span class="lock-icon">🔒</span>
+            </div>
+        </div>
+        <div class="bonus-content">
+            <h3>Bonus Content</h3>
+            <p>Nikmati musik latar dan konsep awal karakter.</p>
+            <audio controls>
+                <source src="./asset/extras/music.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
