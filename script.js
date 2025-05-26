@@ -1,7 +1,7 @@
 function continueGame() {
     const confirmation = confirm("Are you sure you want to continue? Any unsaved progress will be lost.");
     if (confirmation) {
-        window.location.href = '../prolog/index.html'; // Replace with the actual continue game URL
+        window.location.href = './prolog/index.html'; // Replace with the actual continue game URL
     }
 }
 
@@ -71,7 +71,7 @@ function updateActiveSaveSlot(index) {
 function confirmNewGame() {
     const confirmation = confirm("Are you sure you want to start a new game? All unsaved progress will be lost.");
     if (confirmation) {
-        window.location.href = '../prolog/index.html'; // Replace with the actual new game URL
+        window.location.href = './prolog/index.html'; // Replace with the actual new game URL
     }
 }
 

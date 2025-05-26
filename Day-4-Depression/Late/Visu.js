@@ -94,7 +94,7 @@ const dialogData = [
         background: "../../asset/BackGroun/bg30.png", 
         moveBg:false, 
         transitionText:"Day-4-Depression...END To Be Continued..." ,
-        minigameURL: ""
+        minigameURL: "../../Day-5-FINAL/index.html"
 
     },
    

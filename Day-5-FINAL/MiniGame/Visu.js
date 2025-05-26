@@ -36,39 +36,74 @@ let wrongAnswers = 0;
 // Quiz questions data
 const quizData = [
     {
-        question: "Mengapa Vania selalu melakukan kenakalan?",
-        options: ["Mencari Cuan", "Mencari Perhatian", "Gabut", "Iseng"],
-        correctAnswer: 1,
-        background: "../../asset/BackGroun/bg20.png",
-        explanation: "Untuk mencari perhatian, dikarenakan kurangnya perhatian yang di dapatkan dari orang tua nya sehingga membuat Vania mencarinya di luar"
+        question: "Hari Pertama, Aisyah didorong oleh Vania dan diperintah diam. Apa efek psikologis pertama dari perlakuan ini?",
+        options: [  "Takut berbicara di kelas lagi", "Meningkatkan kepercayaan diri", "Menganggap itu hal biasa", "Merasa didukung oleh teman"],
+        correctAnswer: 0,
+        background: "../../asset/BackGroun/bg21.png",
+        explanation: "Penghinaan dan agresi verbal seperti itu bisa menanamkan rasa takut untuk bersuara. Ini awal dari trauma sosial dan membentuk kecenderungan untuk menghindari konflik"
     },
     {
-        question: "Alasan Alex mengikuti Vania dalam melakukan kejahilan?",
-        options: ["Merasa di hargai", "Perasaan suka", "Kagum", "Panutan"],
-        correctAnswer: 0,
-        background: "../../asset/BackGroun/bg8.png",
-        explanation: "Merasa di hargai, di dalam cerita kita dapat mengetahui bahwa Alex merupakan sosok jenius yang selalu di paksa orang tuanya untuk mengikuti kelas akselerasi yang membuat Alex merasa di kucilakn, hingga dia di ajak Vania untuk berteman"
-    },
-    {
-        question: "Dari pertanyaan sebelumnya, kita dapat mengetahui bahwa mereka memiliki masalah dengabn keluarga mereka, tetapi kenapa Rizki yang memiliki keluarga cemara malah mengikuti Vania?",
-        options: ["Kagum dan Suka", "Panutan", "Ikut-ikutan", "Gabut"],
-        correctAnswer: 0,
-        background: "../../asset/BackGroun/bg12.png",
-        explanation: "Kagum dan Suka, karena Rizki merasa kagum dengan Vania yang selalu berani dan tidak terlalu tertarik dengan nya membvuat Rizki jatuh hati dan mengikuti Vania"
-    },
-    {
-        question: "Lalu mengapa Aisyah yang sudah megalami pembukllyan tetap kuat walau tidak mempunyai orangtua?",
-        options: ["Karena Kasih sayabng sudah di dapatkan", "Karena harta", "Karena Yatim Piatu", "Karena Kuat aja"],
-        correctAnswer: 0,
+        question: "Ketika Vania hanya memberi peringatan tanpa menyakiti Aisyah, Aisyah tetap merasa...",
+        options: ["Lega dan bahagia", "Cemas tapi tetap tersenyum", "Lega tapi tetap terluka dalam", "Tidak peduli lagi"],
+        correctAnswer: 2,
         background: "../../asset/BackGroun/bg28.png",
-        explanation: "Karena kasih sayang yang membuat ia kuat melewati semua tantangan hidup"
+        explanation: "Trauma tidak hanya muncul dari kekerasan fisik, tetapi juga dari ketegangan, ancaman, dan rasa tidak aman berulang"
     },
     {
-        question: "Dari semua pertanyaan di atas, kita dapat mengambil kesimpulan bahwa peran orang tua penting atau tidak?",
-        options: ["Kagak penting", "Sangat Penting", "Gak butuh", "Penting gak penting"],
+        question: "Saat pulang sekolah, Aisyah merasa marah namun tidak bisa melawan. Ini menunjukkan...",
+        options: ["Ledakan emosi", "Penyangkalan realita", "Rasa bersalah", "Ketidakberdayaan psikologis "],
+        correctAnswer: 3,
+        background: "../../asset/BackGroun/bg33.png",
+        explanation: "Trauma sering membuat korban merasa tidak berdaya dan kehilangan kontrol terhadap lingkungannya. Ini salah satu tahap menuju depresi. "
+    },
+    {
+        question: "Dalam BK, bagaimana cara terbaik mengidentifikasi siswa yang mengalami trauma diam-diam seperti Aisyah?",
+        options: ["Menanyakan nilai akademis", "Meminta teman sebaya mengawasi", "Memonitor perubahan sikap dan ekspresi", "Memanggil orang tua tanpa konfirmasi"],
+        correctAnswer: 2,
+        background: "../../asset/BackGroun/bg46.png",
+        explanation: "Perubahan perilaku, seperti menarik diri, menurunnya performa, dan kelelahan emosional sering jadi tanda trauma tersembunyi"
+    },
+    {
+        question: "Hari ke-3, Aisyah memberanikan diri pergi ke BK. Apa yang bisa menjadi indikator ia mengalami trauma berat?",
+        options: ["Ia ingin balas dendam", "Ia hanya menangis dan menghindari tatapan", "Ia berbicara panjang lebar", "Ia meminta pindah sekolah"],
         correctAnswer: 1,
-        background: "../../asset/BackGroun/bg16.png",
-        explanation: "peran orang tua sangat penting dalam mencegah anak menjadi pelaku bullying karena dari merekalah anak pertama kali belajar tentang nilai-nilai moral, empati, dan cara memperlakukan orang lain. Melalui pola asuh yang sehat, komunikasi yang terbuka, perhatian yang cukup, serta pengawasan yang bijak, orang tua dapat membentuk karakter anak yang penuh kasih, bertanggung jawab, dan tidak mencari kekuasaan atau pelampiasan dengan cara menyakiti orang lain. Anak yang tumbuh dalam lingkungan keluarga yang positif akan cenderung menjadi pribadi yang baik dan tidak melakukan perundungan."
+        background: "../../asset/BackGroun/bg39.png",
+        explanation: "Menangis tanpa bisa menjelaskan seringkali merupakan ekspresi emosi yang tertahan akibat trauma mendalam."
+    },
+    {
+        question: "BK memberi sanksi ke Vania. Tapi kenapa Aisyah tetap merasa tidak lebih baik?",
+        options: ["Karena sanksi terlalu ringan", "Karena belum ada perubahan sikap sosial", "Karena belum ada perubahan sikap sosial", "Karena Aisyah merasa bersalah"],
+        correctAnswer: 2,
+        background: "../../asset/BackGroun/bg17.png",
+        explanation: "Keadilan eksternal tidak selalu menyembuhkan luka internal. Penyembuhan membutuhkan pengakuan, dukungan sosial, dan pemulihan harga diri."
+    },
+    {
+        question: "Setelah kejadian di toko neneknya, Aisyah mulai berdoa sambil menangis. Tindakan ini menunjukkan...",
+        options: ["Pelarian dari kenyataan", "Tahap Bargaining dalam kesedihan", "Kepasrahan total", "Kecenderungan agresif"],
+        correctAnswer: 1,
+        background: "../../asset/BackGroun/bg44.png",
+        explanation: "Dalam fase kesedihan, bargaining adalah tahap di mana korban mencoba ‘bernegosiasi’ dengan harapan atau Tuhan untuk mencegah rasa sakit lebih lanjut"
+    },
+    {
+        question: "Menurut prinsip BK, apa pendekatan yang paling sehat untuk membantu siswa dalam fase trauma berat?",
+        options: ["Menegur keras", "Mengisolasi korban", "Memberikan waktu, ruang aman, dan dukungan emosional", "Menyuruhnya melawan balik"],
+        correctAnswer: 2,
+        background: "../../asset/BackGroun/bg47.png",
+        explanation: "Pendekatan suportif dari BK sangat penting agar siswa bisa memproses rasa sakit dan mulai bangkit dengan perlahan."
+    },
+    {
+        question: "Saat Vania akhirnya datang minta maaf, bagaimana sebaiknya Aisyah merespons secara sehat meski masih trauma?",
+        options: ["Menerima maaf dan memaafkan sepenuhnya", "Menolak maaf dan membalas dendam", "Mendengarkan, tapi memberi waktu untuk sembuh", "Mendengarkan, tapi memberi waktu untuk sembuh"],
+        correctAnswer: 2,
+        background: "../../asset/BackGroun/bg35.png",
+        explanation: "Memproses trauma butuh waktu. Memaafkan bukan berarti melupakan, tapi bisa jadi bagian dari penyembuhan jika dilakukan dengan keikhlasan"
+    },
+    {
+        question: "Jika kamu adalah Aisyah, apa langkah terbaik hari ini?",
+        options: ["Menghukum mereka yang menyakitimu", "Menyerah dan pergi dari semua", "Mencoba berdiri lagi walau perlahan", "Melupakan semuanya dan pura-pura bahagia"],
+        correctAnswer: 2,
+        background: "../../asset/BackGroun/bg53.png",
+        explanation: "Perjuangan untuk menerima, memaafkan, dan bertumbuh dari luka adalah bentuk kekuatan sejati. Pilihan ini membuka akhir yang damai."
     }
     // Add more questions here
 ];
@@ -458,17 +493,17 @@ function showResults() {
         if (correctAnswers > wrongAnswers) {
             resultText.textContent = `Selamat! Anda mendapatkan ${correctAnswers} dari ${totalQuestions} pertanyaan benar!`;
             setTimeout(() => {
-                transitionToMinigame("../Talk/index.html");
+                transitionToMinigame("../Acception/index.html");
             }, 3000);
         } else if (wrongAnswers > correctAnswers) {
             resultText.textContent = `Maaf, Anda mendapatkan ${correctAnswers} dari ${totalQuestions} pertanyaan benar.`;
             setTimeout(() => {
-                transitionToMinigame("../Damages/index.html");
+                transitionToMinigame("../Gave-Up/index.html");
             }, 3000);
         } else {
             resultText.textContent = `Hasil imbang! Anda mendapatkan ${correctAnswers} dari ${totalQuestions} pertanyaan benar.`;
             setTimeout(() => {
-                transitionToMinigame("neutral-ending.html");
+                transitionToMinigame("../Revenge/index.html");
             }, 3000);
         }
         

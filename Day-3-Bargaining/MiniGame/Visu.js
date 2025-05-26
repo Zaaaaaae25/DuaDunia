@@ -36,39 +36,39 @@ let wrongAnswers = 0;
 // Quiz questions data
 const quizData = [
     {
-        question: "Mengapa Vania selalu melakukan kenakalan?",
-        options: ["Mencari Cuan", "Mencari Perhatian", "Gabut", "Iseng"],
+        question: "Aisyah akhirnya bercerita kepada guru BK tentang semua kejadian yang menimpanya. Apa manfaat utama dari menceritakan masalah pada guru BK?",
+        options: ["Untuk mendapatkan solusi dan dukungan emosional.", "Agar pelakunya dihukum", "Supaya jadi terkenal", "Supaya bisa menang sendiri."],
+        correctAnswer: 0,
+        background: "../../asset/BackGroun/bg39.png",
+        explanation: "BK bukan tempat untuk mencari kemenangan, tapi ruang aman untuk memahami, menyembuhkan, dan merespons masalah secara sehat. Dukungan emosional adalah dasar dari konseling."
+    },
+    {
+        question: "Setelah kejadian itu dilaporkan, Vania dan teman-temannya mendapatkan teguran. Aisyah mulai merasa bersalah. Apakah wajar jika korban merasa bersalah setelah melapor?",
+        options: ["Tidak wajar, karena dia seharusnya marah saja.", "Wajar karena dia takut dibenci.", "Tidak wajar, dia lemah.", "Wajar, karena itu tanda dia baik hati."],
+        correctAnswer: 3,
+        background: "../../asset/BackGroun/bg38.png",
+        explanation: "Rasa bersalah setelah melapor adalah reaksi emosional yang umum—korban sering merasa tidak ingin menyakiti orang lain meski mereka tersakiti. Tapi itu tidak berarti salah melapor. Konselor BK membantu menyadarkan bahwa menyuarakan kebenaran bukan kesalahan."
+    },
+    {
+        question: "Saat Vania marah karena ditegur guru, Aisyah berandai-andai, 'Andai aku tidak bicara, mungkin dia tidak marah'. Apa yang harus dilakukan jika kita menyesali keputusan yang sebenarnya benar?",
+        options: ["Minta maaf agar tidak dimusuhi.", "Diam dan tidak pernah bicara lagi.", "Percaya bahwa membela diri adalah hak dan terus bersikap baik", "Berpura-pura semuanya baik-baik saja."],
+        correctAnswer: 2,
+        background: "../../asset/BackGroun/bg25.png",
+        explanation: "Dalam konseling, penting untuk menyadari bahwa keputusan membela diri adalah bentuk keberanian, bukan kesalahan. Rasa penyesalan tidak harus menghapus tindakan benar yang sudah diambil."
+    },
+    {
+        question: "Aisyah mulai berdoa kepada Tuhan, berharap semuanya bisa selesai. Apa fungsi dari 'bargaining' dalam tahapan kesedihan menurut psikologi?",
+        options: ["Usaha logis untuk menyelesaikan masalah.", "Proses mental untuk menerima kenyataan dengan 'jika saja'", "Tindakan tidak berguna karena tidak akan mengubah apa-apa.", "Cara untuk melarikan diri dari kenyataan."],
         correctAnswer: 1,
-        background: "../../asset/BackGroun/bg20.png",
-        explanation: "Untuk mencari perhatian, dikarenakan kurangnya perhatian yang di dapatkan dari orang tua nya sehingga membuat Vania mencarinya di luar"
+        background: "../../asset/BackGroun/bg29.png",
+        explanation: "Tahap bargaining sering muncul setelah shock dan marah: kita berandai-andai agar kenyataan lebih bisa diterima. Ini proses mental normal dalam menghadapi trauma atau kesedihan."
     },
     {
-        question: "Alasan Alex mengikuti Vania dalam melakukan kejahilan?",
-        options: ["Merasa di hargai", "Perasaan suka", "Kagum", "Panutan"],
+        question: "Setelah kejadian di toko sembako, Aisyah makin tertekan. Jika kamu tahu ada teman yang makin murung setelah suatu kejadian, apa yang paling tepat dilakukan?",
+        options: ["Bertanya dengan tulus dan menyarankan bicara ke BK.", "Membiarkannya sendiri agar tenang.", "Membahasnya ke teman-teman.", "Menunggu dia cerita sendiri."],
         correctAnswer: 0,
-        background: "../../asset/BackGroun/bg8.png",
-        explanation: "Merasa di hargai, di dalam cerita kita dapat mengetahui bahwa Alex merupakan sosok jenius yang selalu di paksa orang tuanya untuk mengikuti kelas akselerasi yang membuat Alex merasa di kucilakn, hingga dia di ajak Vania untuk berteman"
-    },
-    {
-        question: "Dari pertanyaan sebelumnya, kita dapat mengetahui bahwa mereka memiliki masalah dengabn keluarga mereka, tetapi kenapa Rizki yang memiliki keluarga cemara malah mengikuti Vania?",
-        options: ["Kagum dan Suka", "Panutan", "Ikut-ikutan", "Gabut"],
-        correctAnswer: 0,
-        background: "../../asset/BackGroun/bg12.png",
-        explanation: "Kagum dan Suka, karena Rizki merasa kagum dengan Vania yang selalu berani dan tidak terlalu tertarik dengan nya membvuat Rizki jatuh hati dan mengikuti Vania"
-    },
-    {
-        question: "Lalu mengapa Aisyah yang sudah megalami pembukllyan tetap kuat walau tidak mempunyai orangtua?",
-        options: ["Karena Kasih sayabng sudah di dapatkan", "Karena harta", "Karena Yatim Piatu", "Karena Kuat aja"],
-        correctAnswer: 0,
-        background: "../../asset/BackGroun/bg28.png",
-        explanation: "Karena kasih sayang yang membuat ia kuat melewati semua tantangan hidup"
-    },
-    {
-        question: "Dari semua pertanyaan di atas, kita dapat mengambil kesimpulan bahwa peran orang tua penting atau tidak?",
-        options: ["Kagak penting", "Sangat Penting", "Gak butuh", "Penting gak penting"],
-        correctAnswer: 1,
-        background: "../../asset/BackGroun/bg16.png",
-        explanation: "peran orang tua sangat penting dalam mencegah anak menjadi pelaku bullying karena dari merekalah anak pertama kali belajar tentang nilai-nilai moral, empati, dan cara memperlakukan orang lain. Melalui pola asuh yang sehat, komunikasi yang terbuka, perhatian yang cukup, serta pengawasan yang bijak, orang tua dapat membentuk karakter anak yang penuh kasih, bertanggung jawab, dan tidak mencari kekuasaan atau pelampiasan dengan cara menyakiti orang lain. Anak yang tumbuh dalam lingkungan keluarga yang positif akan cenderung menjadi pribadi yang baik dan tidak melakukan perundungan."
+        background: "../../asset/BackGroun/bg40.png",
+        explanation: "Tindakan paling bijak adalah mendekat dengan empati dan menyarankan tempat aman (BK) untuk berbicara. Jangan menunggu terlalu lama—orang yang tertekan kadang butuh satu orang saja untuk menyelamatkannya."
     }
     // Add more questions here
 ];
