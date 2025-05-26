@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'PixelFont';
+    src: url('../asset/Minecraftia.ttf') format('truetype');
+}
+
+body {
+    font-family: 'PixelFont', sans-serif;
+    font-size: 12px !important; /* Atur ukuran font lebih kecil */
+
+
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+#game-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+#black-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out;
+    z-index: 9999;
+}
+
+
+
+#characters {
+    position: absolute;
+    bottom: 17%; /* Menyesuaikan jarak karakter lebih tinggi */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Mengatur agar karakter sejajar di tengah */
+    align-items: flex-end;
+    gap: 560px; /* Menyesuaikan gap agar lebih seimbang */
+}
+
+.character {
+    width: 320px;  
+    height: 520px;
+    object-fit: contain;
+    transition: filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 1; /* Memberikan transparansi default */
+}
+
+.visible {
+    opacity: 1; /* Karakter yang berbicara akan terlihat sepenuhnya */
+}
+
+.hidden {
+    opacity: 0.5; /* Karakter yang tidak berbicara akan disembunyikan sepenuhnya */
+}
+
+#dialog-box {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    right: 10%;
+    background: rgba(0, 0, 0, 1); /* Mengubah kotak dialog menjadi solid */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+
+
+#next-text {
+    text-align: center;
+    color: lightgray;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#next-text:hover {
+    color: white;
+}
+
+#background-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#background {
+    width: auto;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    transition: transform linear; /* Hapus durasi di sini, atur di JS */
+}
+#character-name {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    transition: text-align 0.3s ease-in-out;
+}
+
+.left-name {
+    text-align: left;
+}
+
+.right-name {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+#transition-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#transition-overlay.active {
+    opacity: 1;
+}
+
+.music-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background 0.3s ease;
+}
+
+.music-button:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.music-icon {
+    color: white;
+    font-size: 20px;
+}
+
+.skip-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background 0.3s ease;
+    color: white;
+    font-family: 'PixelFont', sans-serif;
+    display: none; /* Hidden by default */
+}
+
+.skip-button:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.skip-icon {
+    font-size: 16px;
+}
+
