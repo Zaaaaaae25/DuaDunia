@@ -36,39 +36,39 @@ let wrongAnswers = 0;
 // Quiz questions data
 const quizData = [
     {
-        question: "Mengapa Vania selalu melakukan kenakalan?",
-        options: ["Mencari Cuan", "Mencari Perhatian", "Gabut", "Iseng"],
-        correctAnswer: 1,
-        background: "../../asset/BackGroun/bg20.png",
-        explanation: "Untuk mencari perhatian, dikarenakan kurangnya perhatian yang di dapatkan dari orang tua nya sehingga membuat Vania mencarinya di luar"
+        question: "Saat itu, kelas hening. Semua tahu yang salah adalah Vania dan teman-temannya. Tapi tak seorang pun bicara. Jika kamu melihat seseorang dibully seperti Aisyah, apa yang sebaiknya kamu lakukan?",
+        options: ["Menonton saja, toh bukan urusan saya.", "Ikut tertawa agar tidak dianggap aneh.", "Melaporkan kejadian itu ke guru atau BK.", "Merekam dan menyebarkannya agar semua tahu"],
+        correctAnswer: 2,
+        background: "../../asset/BackGroun/bg32.png",
+        explanation: "Melaporkan bukan berarti mengadu, tapi peduli. Dalam bimbingan konseling, ini disebut sebagai bentuk assertive empathy, menunjukkan kamu berani dan peduli terhadap korban tanpa menyakiti pelaku."
     },
     {
-        question: "Alasan Alex mengikuti Vania dalam melakukan kejahilan?",
-        options: ["Merasa di hargai", "Perasaan suka", "Kagum", "Panutan"],
-        correctAnswer: 0,
-        background: "../../asset/BackGroun/bg8.png",
-        explanation: "Merasa di hargai, di dalam cerita kita dapat mengetahui bahwa Alex merupakan sosok jenius yang selalu di paksa orang tuanya untuk mengikuti kelas akselerasi yang membuat Alex merasa di kucilakn, hingga dia di ajak Vania untuk berteman"
-    },
-    {
-        question: "Dari pertanyaan sebelumnya, kita dapat mengetahui bahwa mereka memiliki masalah dengabn keluarga mereka, tetapi kenapa Rizki yang memiliki keluarga cemara malah mengikuti Vania?",
-        options: ["Kagum dan Suka", "Panutan", "Ikut-ikutan", "Gabut"],
-        correctAnswer: 0,
-        background: "../../asset/BackGroun/bg12.png",
-        explanation: "Kagum dan Suka, karena Rizki merasa kagum dengan Vania yang selalu berani dan tidak terlalu tertarik dengan nya membvuat Rizki jatuh hati dan mengikuti Vania"
-    },
-    {
-        question: "Lalu mengapa Aisyah yang sudah megalami pembukllyan tetap kuat walau tidak mempunyai orangtua?",
-        options: ["Karena Kasih sayabng sudah di dapatkan", "Karena harta", "Karena Yatim Piatu", "Karena Kuat aja"],
-        correctAnswer: 0,
+        question: "Aisyah sudah pernah menyampaikan ke guru, dan sekarang ia jadi target kemarahan Vania. Jika kamu dalam posisi marah karena dipermalukan atau disalahpahami, apa respon terbaik?",
+        options: ["Membalas agar dia tahu rasanya.", "Memboikot dan menyuruh teman-teman menjauhinya.", "Menenangkan diri dan mencari waktu untuk bicara dengan guru BK.", "Melupakan saja dan diam tapi tetap menyimpan dendam."],
+        correctAnswer: 2,
         background: "../../asset/BackGroun/bg28.png",
-        explanation: "Karena kasih sayang yang membuat ia kuat melewati semua tantangan hidup"
+        explanation: "BK mengajarkan pentingnya regulasi emosi. Dengan bicara pada guru BK, kamu mendapatkan ruang yang aman untuk meluapkan perasaan tanpa harus menyakiti orang lain atau diri sendiri."
     },
     {
-        question: "Dari semua pertanyaan di atas, kita dapat mengambil kesimpulan bahwa peran orang tua penting atau tidak?",
-        options: ["Kagak penting", "Sangat Penting", "Gak butuh", "Penting gak penting"],
+        question: "Aisyah jujur di depan kelas, padahal dia tahu itu bisa membuat Vania marah. Tapi dia tetap bicara. Menurutmu, kapan kejujuran itu jadi perbuatan yang baik?",
+        options: ["Disampaikan di media sosial.", "Dilakukan dengan niat balas dendam.", "Langsung dibilang ke semua orang agar kapok", "Dilakukan dengan cara dan tempat yang baik serta niat yang tulus"],
+        correctAnswer: 3,
+        background: "../../asset/BackGroun/bg26.png",
+        explanation: "Kagum dan Suka, karena Rizki merasa kagum dengan Vania yang selalu berani dan tidak terlalu tertarik dengan nya membvuat Rizki jatuh hati dan mengikuti VaniaKejujuran yang baik adalah kejujuran yang dilakukan dengan penuh tanggung jawab, bukan karena emosi. BK mengajarkan bahwa cara menyampaikan kebenaran sama pentingnya dengan isi kebenaran itu sendiri"
+    },
+    {
+        question: "Aisyah merasa sangat sedih. Ia menangis dalam diam, tapi tetap tidak bicara ke siapa-siapa. Apa yang bisa terjadi jika seseorang terus menyimpan perasaannya sendirian?",
+        options: ["Bisa menyebabkan tekanan batin dan stres berkepanjangan.", "Jadi lebih disukai banyak orang karena tidak reaktif.", "Akan menjadi lebih kuat.", "Tidak akan masalah, lama-lama biasa saja."],
+        correctAnswer: 0,
+        background: "../../asset/BackGroun/bg23.png",
+        explanation: "Memendam emosi tanpa outlet bisa mengarah ke depresi. BK menyarankan untuk curhat, berbicara dengan orang dewasa yang dipercaya agar luka batin tidak menjadi trauma yang dalam."
+    },
+    {
+        question: "Guru BK sangat kesal melihat Vania terus membuat masalah. Tapi ia tahu marah tidak akan membuat Vania berubah. Kalau kamu jadi Guru BK, apa tindakan terbaik?",
+        options: ["Langsung skors agar tidak menular ke siswa lain.", "Memberi kesempatan bicara, mencari tahu alasan di balik sikapnya", "Tidak usah ditanggapi karena sudah bandel.", "emanggil orang tuanya dan memberi hukuman tegas."],
         correctAnswer: 1,
-        background: "../../asset/BackGroun/bg16.png",
-        explanation: "peran orang tua sangat penting dalam mencegah anak menjadi pelaku bullying karena dari merekalah anak pertama kali belajar tentang nilai-nilai moral, empati, dan cara memperlakukan orang lain. Melalui pola asuh yang sehat, komunikasi yang terbuka, perhatian yang cukup, serta pengawasan yang bijak, orang tua dapat membentuk karakter anak yang penuh kasih, bertanggung jawab, dan tidak mencari kekuasaan atau pelampiasan dengan cara menyakiti orang lain. Anak yang tumbuh dalam lingkungan keluarga yang positif akan cenderung menjadi pribadi yang baik dan tidak melakukan perundungan."
+        background: "../../asset/BackGroun/bg26.png",
+        explanation: "Salah satu prinsip konseling adalah menggali akar masalah, bukan langsung menghukum. Anak seperti Vania mungkin bertindak karena masalah di rumah atau emosi yang tak terkendali. Mendengar adalah langkah awal untuk perubahan."
     }
     // Add more questions here
 ];

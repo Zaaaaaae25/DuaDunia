@@ -36,39 +36,39 @@ let wrongAnswers = 0;
 // Quiz questions data
 const quizData = [
     {
-        question: "Mengapa Vania selalu melakukan kenakalan?",
-        options: ["Mencari Cuan", "Mencari Perhatian", "Gabut", "Iseng"],
+        question: "Aisyah tidak masuk sekolah dengan alasan sakit, padahal ia sedang mengalami depresi berat. Apa ciri umum dari seseorang yang mengalami depresi?",
+        options: ["Marah terus-menerus", "Selalu ceria di depan orang lain", "Merasa putus asa dan tidak memiliki energi", "Makan terus-menerus"],
+        correctAnswer: 2,
+        background: "../../asset/BackGroun/bg46.png",
+        explanation: "Depresi sering membuat seseorang merasa hampa, kelelahan, dan tidak ingin melakukan apa pun, termasuk hal yang biasanya disukai. Ini bukan sekadar “sedih biasa” tetapi perasaan kehilangan harapan yang mendalam."
+    },
+    {
+        question: "Guru BK memanggil Vania, bukan untuk memarahinya, tetapi untuk menasehati. Mengapa pendekatan ini lebih baik dalam kasus seperti Vania?",
+        options: ["Karena Vania pasti akan melawan jika dimarahi", "Karena pendekatan lembut lebih membuka ruang perubahan", "Karena BK takut dengan Vania", "Supaya tidak memperpanjang masalah"],
         correctAnswer: 1,
-        background: "../../asset/BackGroun/bg20.png",
-        explanation: "Untuk mencari perhatian, dikarenakan kurangnya perhatian yang di dapatkan dari orang tua nya sehingga membuat Vania mencarinya di luar"
+        background: "../../asset/BackGroun/bg26.png",
+        explanation: "Dalam konseling, pendekatan empati dan komunikasi non-menghakimi lebih efektif dalam menyentuh hati seseorang dan mengubah perilaku secara sadar, bukan karena tekanan atau hukuman."
     },
     {
-        question: "Alasan Alex mengikuti Vania dalam melakukan kejahilan?",
-        options: ["Merasa di hargai", "Perasaan suka", "Kagum", "Panutan"],
+        question: "Alex dan Rizqi merasa bersalah karena selama ini hanya mengikuti Vania. Apa sikap terbaik setelah menyadari kesalahan masa lalu?",
+        options: ["Berpura-pura tidak tahu", "Menyalahkan Vania sepenuhnya", "Mengakui dan meminta maaf dengan tulus", "Menjauhi semua orang"],
+        correctAnswer: 2,
+        background: "../../asset/BackGroun/bg19.png",
+        explanation: "Mengakui kesalahan dan meminta maaf adalah langkah awal menuju pertumbuhan pribadi dan perbaikan hubungan. Ini adalah bentuk tanggung jawab dan kematangan emosional."
+    },
+    {
+        question: "Aisyah berdoa, berharap semuanya segera berakhir. Apa arti penting dari spiritualitas saat seseorang berada dalam masa depresi?",
+        options: ["Untuk menyembuhkan secara ajaib", "Untuk menyalahkan takdir", "Sebagai bentuk harapan dan kekuatan batin", "Agar orang lain menganggap kita sabar"],
+        correctAnswer: 2,
+        background: "../../asset/BackGroun/bg44.png",
+        explanation: "Dalam situasi depresi, spiritualitas bisa menjadi penguat dari dalam: bukan untuk kabur dari kenyataan, tapi untuk mencari makna, penghiburan, dan harapan dalam masa sulit."
+    },
+    {
+        question: "Vania mulai merenung setelah mendengar semua yang terjadi. Ia sadar bahwa tindakan buruknya berdampak dalam. Apa yang bisa dilakukan untuk memperbaiki luka yang sudah terlanjur terjadi?",
+        options: ["Meminta maaf dan tidak mengulangi lagi", "Memberi hadiah agar dimaafkan", "Menghindari korban selamanya", "Membela diri dan menyangkal"],
         correctAnswer: 0,
-        background: "../../asset/BackGroun/bg8.png",
-        explanation: "Merasa di hargai, di dalam cerita kita dapat mengetahui bahwa Alex merupakan sosok jenius yang selalu di paksa orang tuanya untuk mengikuti kelas akselerasi yang membuat Alex merasa di kucilakn, hingga dia di ajak Vania untuk berteman"
-    },
-    {
-        question: "Dari pertanyaan sebelumnya, kita dapat mengetahui bahwa mereka memiliki masalah dengabn keluarga mereka, tetapi kenapa Rizki yang memiliki keluarga cemara malah mengikuti Vania?",
-        options: ["Kagum dan Suka", "Panutan", "Ikut-ikutan", "Gabut"],
-        correctAnswer: 0,
-        background: "../../asset/BackGroun/bg12.png",
-        explanation: "Kagum dan Suka, karena Rizki merasa kagum dengan Vania yang selalu berani dan tidak terlalu tertarik dengan nya membvuat Rizki jatuh hati dan mengikuti Vania"
-    },
-    {
-        question: "Lalu mengapa Aisyah yang sudah megalami pembukllyan tetap kuat walau tidak mempunyai orangtua?",
-        options: ["Karena Kasih sayabng sudah di dapatkan", "Karena harta", "Karena Yatim Piatu", "Karena Kuat aja"],
-        correctAnswer: 0,
-        background: "../../asset/BackGroun/bg28.png",
-        explanation: "Karena kasih sayang yang membuat ia kuat melewati semua tantangan hidup"
-    },
-    {
-        question: "Dari semua pertanyaan di atas, kita dapat mengambil kesimpulan bahwa peran orang tua penting atau tidak?",
-        options: ["Kagak penting", "Sangat Penting", "Gak butuh", "Penting gak penting"],
-        correctAnswer: 1,
-        background: "../../asset/BackGroun/bg16.png",
-        explanation: "peran orang tua sangat penting dalam mencegah anak menjadi pelaku bullying karena dari merekalah anak pertama kali belajar tentang nilai-nilai moral, empati, dan cara memperlakukan orang lain. Melalui pola asuh yang sehat, komunikasi yang terbuka, perhatian yang cukup, serta pengawasan yang bijak, orang tua dapat membentuk karakter anak yang penuh kasih, bertanggung jawab, dan tidak mencari kekuasaan atau pelampiasan dengan cara menyakiti orang lain. Anak yang tumbuh dalam lingkungan keluarga yang positif akan cenderung menjadi pribadi yang baik dan tidak melakukan perundungan."
+        background: "../../asset/BackGroun/bg34.png",
+        explanation: "Permintaan maaf yang tulus dan perubahan sikap adalah bentuk pertanggungjawaban terbaik. Meski luka tidak selalu langsung sembuh, langkah ini membuka pintu penyembuhan dan rekonsiliasi."
     }
     // Add more questions here
 ];
@@ -458,7 +458,7 @@ function showResults() {
         if (correctAnswers > wrongAnswers) {
             resultText.textContent = `Selamat! Anda mendapatkan ${correctAnswers} dari ${totalQuestions} pertanyaan benar!`;
             setTimeout(() => {
-                transitionToMinigame("../Talk/index.html");
+                transitionToMinigame("../Damages/index.html");
             }, 3000);
         } else if (wrongAnswers > correctAnswers) {
             resultText.textContent = `Maaf, Anda mendapatkan ${correctAnswers} dari ${totalQuestions} pertanyaan benar.`;

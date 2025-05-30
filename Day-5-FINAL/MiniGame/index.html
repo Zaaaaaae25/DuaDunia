@@ -1,70 +1,44 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="id">
 <head>
-	<meta charset="UTF-8">
-	<title>Judul Game</title>
-	<style>
-		html,
-		body {
-			margin: 0;
-			overflow: hidden;
-			text-align: center;
-			background-image: url('path/to/your/background.jpg');
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
-			height: 100%;
-		}
-
-		canvas {
-			padding: 0;
-			margin: auto;
-			display: block;
-			width: 100vw;
-			height: 100vh;
-		}
-
-		#gameArea {
-			width: 100%;
-			height: 100%;
-			position: absolute;
-		}
-
-		#game {
-			margin: 0;
-			height: 100%;
-		}
-
-		#deathCounter, #objectiveCounter {
-			position: absolute;
-			top: 20px;
-			left: 20px;
-			font-family: 'Calibri', sans-serif;
-			font-size: 20px;
-			color: white;
-			background-color: rgba(0, 0, 0, 0.5);
-			padding: 10px;
-			border-radius: 5px;
-		}
-
-		#objectiveCounter {
-			top: 60px; /* Position below the death counter */
-		}
-	</style>
-	<script type="text/javascript" src="js/mekanik.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Novel Sederhana</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<div id="deathCounter">Attempts: 0/3</div>
-	<div id="objectiveCounter">Objective: 0/45</div>
-	<center>
-		<div id="game">
-			<div id="gameArea"><canvas id="canvas"></canvas></div>
-		</div>
-	</center>
-</body>
-<script type="text/javascript" src="js/map_1.js"></script>
-<script type="text/javascript" src="js/game.js"></script>
+    <div id="game-container">
+        <div id="black-screen"></div>
+        <div id="background-container">
+            <img id="background" src="asset/bg1.png" alt="Latar Belakang">
+        </div>
+        <div id="characters">
+            <img id="character-left" src="../../asset/Char/Char_Nothing.png" class="character hidden">
+            <img id="character-right" src="../../asset/Char/Char_Nothing.png" class="character hidden">
+        </div>
+        <div id="dialog-box">
+            <span id="character-name"></span>
+            <p id="dialog-text"></p>
+            <p id="next-text">Lanjut</p>
+        </div>
+    </div>
+    
+    <!-- Overlay untuk transisi hitam -->
+    <div id="transition-overlay"></div>
 
+    <!-- Audio element for background music -->
+    <audio id="background-music" src="../MUSIC/ENDINGEPIC.mp3" preload="auto"></audio>
+
+    <!-- Tambahkan tombol musik -->
+    <button id="music-toggle" class="music-button">
+        <span class="music-icon">🔊</span>
+    </button>
+
+    <!-- Tambahkan setelah music-toggle button dan sebelum script -->
+    <button id="skip-button" class="skip-button">
+        <span class="skip-icon">⏭️ Skip</span>
+    </button>
+
+    <script src="Visu.js"></script>
+</body>
 </html>

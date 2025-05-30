@@ -170,7 +170,7 @@ const dialogData = [
         background: "../../asset/BackGroun/bg.png", 
         moveBg:true, 
         transitionText:"DAY-3-BARGAINING...END" ,
-        minigameURL: ""
+        minigameURL: "../../Day-4-Depression/index.html"
 
     },
 
