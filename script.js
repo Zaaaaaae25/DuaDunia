@@ -71,6 +71,7 @@ function updateActiveSaveSlot(index) {
 function confirmNewGame() {
     const confirmation = confirm("Are you sure you want to start a new game? All unsaved progress will be lost.");
     if (confirmation) {
+        localStorage.clear(); // Hapus semua progress
         window.location.href = './prolog/index.html'; // Replace with the actual new game URL
     }
 }

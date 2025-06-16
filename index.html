@@ -109,6 +109,47 @@
           window.location.href = "prolog/index.html";
         }
       });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // Ambil progress dari localStorage
+        const progress = localStorage.getItem("duadunia_progress") || "day1";
+        let keyframes = "";
+
+        if (progress === "day1") {
+          keyframes = `
+        @keyframes words {
+            1%, 100% { content: "Day 1 Denial"; }
+        }`;
+        } else if (progress === "day2") {
+          keyframes = `
+        @keyframes words {
+            1%, 100% { content: "Day 2 Anger"; }
+        }`;
+        } else if (progress === "day3") {
+          keyframes = `
+        @keyframes words {
+            1%, 100% { content: "Day 3 Bargaining"; }
+        }`;
+        } else if (progress === "day4") {
+          keyframes = `
+        @keyframes words {
+            1%, 100% { content: "Day 4 Depression"; }
+        }`;
+        } else if (progress === "day5") {
+          keyframes = `
+        @keyframes words {
+
+            1%, 100% { content: "Day 5 Acception"; }
+        }`;
+        }
+
+        // Sisipkan style dinamis ke <head>
+        if (keyframes) {
+          const style = document.createElement("style");
+          style.innerHTML = keyframes;
+          document.head.appendChild(style);
+        }
+      });
     </script>
   </body>
 </html>
