@@ -277,15 +277,14 @@ function showDialog() {
     }
 }
 function transitionToMinigame(url) {
+    // Simpan progress ke localStorage
+    localStorage.setItem('duadunia_progress', 'day2');
     blackScreen.style.visibility = "visible";
     blackScreen.style.opacity = "1";
-    
     setTimeout(() => {
         window.location.href = url;
     }, 1500);
 }
-
-// ... existing code ...
 
 // Function to fade in audio
 function fadeInAudio(audio, duration) {
@@ -344,7 +343,6 @@ musicToggle.addEventListener("click", toggleMusic);
 
 // Pastikan musik dimuat dengan benar saat halaman dimuat
 window.addEventListener("load", () => {
-    localStorage.clear();
     backgroundMusic.volume = 0;
     backgroundMusic.pause();
     musicIcon.textContent = "🔈";
@@ -352,8 +350,6 @@ window.addEventListener("load", () => {
     // Preload the audio
     backgroundMusic.load();
 });
-
-// ... existing code ...
 
 function handleNextClick() {
     if (isTyping) {
