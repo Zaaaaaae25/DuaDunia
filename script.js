@@ -102,3 +102,4 @@ document.addEventListener("keydown", (event) => {
 });
 
 updateActiveButton(currentIndex);
+S;
