@@ -157,7 +157,7 @@ const dialogData = [
     background: "../../asset/BackGroun/bg.png",
     moveBg: true,
     transitionText: "DAY-3-BARGAINING...END",
-    minigameURL: "../../Day-4-Depression/index.html",
+    minigameURL: "../../Day-4-Depression/Early/index.html",
   },
 ];
 function typeWriterEffect(text, container, callback, index = 0) {
